@@ -1,0 +1,46 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyName>KOTCKFixAndroidFinalv0.5</AssemblyName>
+    <RootNamespace>KOTCKFixAndroid</RootNamespace>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <Version>0.1.0</Version>
+    <AssemblyTitle>KOTCKFixAndroid</AssemblyTitle>
+    <Product>KOTCKFixAndroid</Product>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="BepInEx">
+      <HintPath>libs\BepInEx.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>libs\Assembly-CSharp.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="PlayMaker">
+      <HintPath>libs\PlayMaker.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>libs\UnityEngine.CoreModule.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="TeamCherry.Localization">
+      <HintPath>libs\TeamCherry.Localization.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <!-- Uncomment if the compiler asks for it -->
+    <!--
+    <Reference Include="TeamCherry.TK2D">
+      <HintPath>libs\TeamCherry.TK2D.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    -->
+  </ItemGroup>
+
+</Project>
